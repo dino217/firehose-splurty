@@ -1,9 +1,20 @@
+
+
 header {
   border-top: 9px solid #222222;
 }
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'cormorant_uprightsemibold', serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'cormorant_uprightbook', serif;
 }
 
 .clear {
@@ -38,6 +49,8 @@ hr {
     color: black;
     font-size: 25px;
     border-bottom: #dfdfdf;
+    font-family: 'cormorant_uprightregular', serif;
+    font-weight: bold;
   }
 
   .slogan{
