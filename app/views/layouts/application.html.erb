@@ -29,8 +29,21 @@
   <hr />
 
   <br class="clear" />
+  <div class="container">
+  <%= yield %>
+  </div>
 
-<%= yield %>
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Made following a tutorial from <a href="thefirehoseproject.com">The Firehose Project</a><br />
+        See the code on <a href="https://github.com/dino217/firehose-splurty">Github</a>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
